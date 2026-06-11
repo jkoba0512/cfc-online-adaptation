@@ -1,0 +1,31 @@
+# Manuscript / unpublished paper material
+paper/
+outputs/paper_figures_*/
+code/scripts/plot_paper_figures.py
+code/scripts/run_phase2_step5_sensory_prediction_route.py
+
+# Generated experiment outputs
+outputs/
+
+# Local agent/workspace metadata
+.agents/
+.codex/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+code/.venv/
+
+# LaTeX build artifacts, in case paper/ is ever unignored locally
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.pdf

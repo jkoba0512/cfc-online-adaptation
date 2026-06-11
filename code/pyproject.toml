@@ -1,0 +1,33 @@
+[project]
+name = "cfc-online-adaptation"
+version = "0.1.0"
+description = "Climbing-fiber-like online adaptation of a CfC readout for motor control"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.12.0",
+    "ncps>=1.0.1",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
