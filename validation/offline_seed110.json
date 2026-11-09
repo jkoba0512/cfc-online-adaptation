@@ -1,0 +1,40 @@
+{
+  "stage": "offline",
+  "package_files_verified": 678,
+  "seeds_filter": [
+    110
+  ],
+  "checks": {
+    "models": 5,
+    "checks": [
+      {
+        "family": "dense",
+        "seed": 110,
+        "all_model_tensors_bit_identical": true
+      },
+      {
+        "family": "ncp",
+        "seed": 110,
+        "all_model_tensors_bit_identical": true
+      },
+      {
+        "family": "fc",
+        "seed": 110,
+        "all_model_tensors_bit_identical": true
+      },
+      {
+        "family": "esn",
+        "seed": 110,
+        "all_model_tensors_bit_identical": true
+      },
+      {
+        "family": "rbf",
+        "seed": 110,
+        "all_model_tensors_bit_identical": true
+      }
+    ]
+  },
+  "python": "3.11.13",
+  "torch": "2.12.0+cu130",
+  "numpy": "2.4.6"
+}

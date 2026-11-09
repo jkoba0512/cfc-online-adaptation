@@ -1,0 +1,351 @@
+{
+  "shared_task": {
+    "center_xy": [
+      0.0,
+      0.45
+    ],
+    "radius": 0.1,
+    "T": 0.5,
+    "dt": 0.005,
+    "Kp": [
+      35.0,
+      25.0
+    ],
+    "Kd": [
+      3.5,
+      2.5
+    ],
+    "direction_order": "fixed",
+    "error_signal": "fel",
+    "protocol": {
+      "A_null_cycles": 1,
+      "B_curl_cycles": 30,
+      "C_catch_null_cycles": 1,
+      "C_washout_null_cycles": 5,
+      "catch_adapt": false,
+      "washout_adapt": true
+    },
+    "readout": "kept across reaches; recurrent state reset per reach; PD torque always applied, used as the learning signal only when updates are on"
+  },
+  "selection": {
+    "validity_function": "cfc_online_adaptation.revision_manifest.validate_ab_curves",
+    "selection_function": "cfc_online_adaptation.revision_rerun.select_eta_for_seeds",
+    "field_b": 13.0,
+    "pd": 1.0,
+    "seeds": [
+      100,
+      101,
+      102
+    ],
+    "selected_methods": [
+      "dense-CfC-LMS",
+      "NCP-CfC-LMS",
+      "FC-CfC-LMS",
+      "ESN-LMS",
+      "RBF-LMS"
+    ],
+    "multipliers": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0,
+      300.0
+    ],
+    "eta_grids_from_manifest_A3": {
+      "dense": {
+        "selection_feature_energy": 19.46210192798876,
+        "reference_feature_energy_dense": 19.46210192798876,
+        "center": 0.001,
+        "grid": [
+          3e-05,
+          0.0001,
+          0.0003,
+          0.001,
+          0.003,
+          0.01,
+          0.03,
+          0.1,
+          0.3
+        ]
+      },
+      "ncp": {
+        "selection_feature_energy": 11.977175444753238,
+        "reference_feature_energy_dense": 19.46210192798876,
+        "center": 0.0016249325241799303,
+        "grid": [
+          4.8747975725397904e-05,
+          0.00016249325241799305,
+          0.00048747975725397906,
+          0.0016249325241799303,
+          0.004874797572539791,
+          0.016249325241799305,
+          0.04874797572539791,
+          0.16249325241799303,
+          0.4874797572539791
+        ]
+      },
+      "fc": {
+        "selection_feature_energy": 17.65461968241271,
+        "reference_feature_energy_dense": 19.46210192798876,
+        "center": 0.0011023801292857436,
+        "grid": [
+          3.3071403878572305e-05,
+          0.00011023801292857436,
+          0.0003307140387857231,
+          0.0011023801292857436,
+          0.003307140387857231,
+          0.011023801292857436,
+          0.03307140387857231,
+          0.11023801292857435,
+          0.3307140387857231
+        ]
+      },
+      "esn": {
+        "selection_feature_energy": 12.1049779216996,
+        "reference_feature_energy_dense": 19.46210192798876,
+        "center": 0.0016077767389480857,
+        "grid": [
+          4.823330216844257e-05,
+          0.00016077767389480858,
+          0.0004823330216844257,
+          0.0016077767389480857,
+          0.004823330216844257,
+          0.016077767389480857,
+          0.04823330216844257,
+          0.16077767389480857,
+          0.4823330216844257
+        ]
+      },
+      "rbf": {
+        "selection_feature_energy": 49.98269926118555,
+        "reference_feature_energy_dense": 19.46210192798876,
+        "center": 0.00038937676867528047,
+        "grid": [
+          1.1681303060258414e-05,
+          3.893767686752805e-05,
+          0.00011681303060258414,
+          0.00038937676867528047,
+          0.0011681303060258415,
+          0.0038937676867528046,
+          0.011681303060258413,
+          0.03893767686752805,
+          0.11681303060258415
+        ]
+      }
+    },
+    "rule": "valid = every selection seed passes validate_ab_curves; among valid etas the smallest mean B_last; ties to the smaller eta; edge selection recorded, grid not extended; no rescue on evaluation seeds; after-effect, probe and frozen results never enter selection",
+    "RLS": "fixed beta=1, P0=0.1I on the dense 400-epoch checkpoint; no selection runs"
+  },
+  "evaluation": {
+    "fields": [
+      13.0,
+      -13.0,
+      25.0
+    ],
+    "field_main": 13.0,
+    "seeds": [
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "pd": 1.0,
+    "same_selected_eta_across_fields": true,
+    "B0_reference": "same family, seed, field and PD (readout frozen at J0); RLS reference the dense B0; PD-only is one deterministic run per field",
+    "primary": {
+      "metric": "B_last_mm (direction mean of max |perpendicular deviation|, final B cycle, b = 13)",
+      "pair": "evaluation seed s: NCP-CfC-LMS seed s vs dense-CfC-LMS seed s (same data split and init seed; NCP wiring seed 22200+s)",
+      "statistic": "mean log(error_NCP/error_dense) over finite positive pairs, paired percentile bootstrap 95% (10000 resamples, seed 20261107); all pairs and sign counts published; excluded pairs listed; not a superiority test"
+    },
+    "summary": "median per method and field; no superiority significance test"
+  },
+  "sensitivity": {
+    "methods": [
+      "dense-CfC-LMS",
+      "NCP-CfC-LMS",
+      "FC-CfC-LMS",
+      "ESN-LMS",
+      "RBF-LMS"
+    ],
+    "eta_points": 9,
+    "PD_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "seeds": [
+      100,
+      101,
+      102
+    ],
+    "field_b": 13.0,
+    "outcomes": [
+      "B_last",
+      "after_effect_at_threshold_0.25"
+    ],
+    "pd1_adaptive_runs": "reused from selection (identical key)",
+    "B0_runs": "5 families x 3 selection seeds x 3 PD = 45 (evaluation B0 are other seeds)"
+  },
+  "fixed_parameters": {
+    "RLS_beta": 1.0,
+    "RLS_p0": 0.1,
+    "LMS_leakage": 0.0
+  },
+  "metrics": {
+    "functions": "cfc_online_adaptation.revision_online.run_metrics",
+    "after_effect_threshold_sweep": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "main_threshold": 0.25
+  },
+  "schema": "submission6-protocol-dataset-v1",
+  "role": "Settings and inventory of the supplied six-method dataset",
+  "manifest_A3": "manifests/manifest_A3.json",
+  "manifest_A3_sha256": "cdf2ba5188e053a1abd12ae87022b202e724315ae0b8ef0b9ae2e2c1ac53b746",
+  "methods": [
+    "dense-CfC-LMS",
+    "NCP-CfC-LMS",
+    "FC-CfC-LMS",
+    "ESN-LMS",
+    "RBF-LMS",
+    "dense-CfC-RLS",
+    "B0-dense-CfC",
+    "B0-NCP-CfC",
+    "B0-FC-CfC",
+    "B0-ESN",
+    "B0-RBF",
+    "PD-only"
+  ],
+  "method_definitions": {
+    "B0-dense-CfC": [
+      "dense",
+      "frozen",
+      null
+    ],
+    "B0-NCP-CfC": [
+      "ncp",
+      "frozen",
+      null
+    ],
+    "B0-FC-CfC": [
+      "fc",
+      "frozen",
+      null
+    ],
+    "B0-ESN": [
+      "esn",
+      "frozen",
+      null
+    ],
+    "B0-RBF": [
+      "rbf",
+      "frozen",
+      null
+    ],
+    "PD-only": [
+      "dense",
+      "null",
+      null
+    ],
+    "dense-CfC-LMS": [
+      "dense",
+      "lms",
+      "dense"
+    ],
+    "NCP-CfC-LMS": [
+      "ncp",
+      "lms",
+      "ncp"
+    ],
+    "FC-CfC-LMS": [
+      "fc",
+      "lms",
+      "fc"
+    ],
+    "ESN-LMS": [
+      "esn",
+      "lms",
+      "esn"
+    ],
+    "RBF-LMS": [
+      "rbf",
+      "lms",
+      "rbf"
+    ],
+    "dense-CfC-RLS": [
+      "dense",
+      "rls",
+      null
+    ]
+  },
+  "counts": {
+    "selection": 135,
+    "evaluation": 333,
+    "adaptive_evaluation": 180,
+    "new_sensitivity": 315,
+    "stored_online": 783,
+    "diagnostics": 60,
+    "protocol_total": 843,
+    "adaptive_sensitivity_outcomes": 405,
+    "finite_sensitivity_outcomes": 349,
+    "field_on_fixed_cycles": 120,
+    "field_on_fixed_reaches": 960
+  },
+  "selection_seeds": [
+    100,
+    101,
+    102
+  ],
+  "evaluation_seeds": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "diagnostics": {
+    "field_b": 13.0,
+    "methods": [
+      "dense-CfC-LMS",
+      "NCP-CfC-LMS",
+      "FC-CfC-LMS",
+      "ESN-LMS",
+      "RBF-LMS",
+      "dense-CfC-RLS"
+    ],
+    "evaluation_seeds": [
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "conditions": 60
+  }
+}

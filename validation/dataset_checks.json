@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "data_tables": {
+    "results/diagnostics/actor_probe_per_direction.csv": 960,
+    "results/diagnostics/diagnostics_summary.csv": 60,
+    "results/diagnostics/frozen_per_reach.csv": 1920,
+    "results/diagnostics/frozen_vs_adaptive_cycles.csv": 480,
+    "results/diagnostics/probe_per_direction.csv": 480,
+    "results/evaluation_per_seed.csv": 333,
+    "results/evaluation_summary.csv": 36,
+    "results/offline_quality_400_cfc.csv": 39,
+    "results/offline_quality_ridge.csv": 26,
+    "results/selection_table.csv": 45,
+    "results/sensitivity_eta_pd_grid.csv": 135,
+    "results/sensitivity_eta_pd_per_seed.csv": 405
+  },
+  "retained_npz_unchanged": 480,
+  "checkpoints_unchanged": 65,
+  "figures_unchanged": {
+    "revision_aux_table.tex": true,
+    "revision_main_table.tex": true,
+    "diagnostic_table.tex": true,
+    "revision_seed_table.tex": true,
+    "diagnostic_comparison.pdf": true,
+    "revision_sensitivity.pdf": true,
+    "revision_main.pdf": true,
+    "diagnostic_waveforms.pdf": true
+  },
+  "stored_protocols": 783,
+  "adaptive_methods": 6,
+  "selection_methods": 5,
+  "diagnostics": 60,
+  "source_files_unchanged": 25,
+  "original_project_data_preserved": true
+}

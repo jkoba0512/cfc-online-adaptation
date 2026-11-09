@@ -1,0 +1,7 @@
+{
+  "technical_checks_passed": true,
+  "n_conditions": 60,
+  "n_determinism_mismatch": 0,
+  "n_nonfinite_reproduced": 0,
+  "n_adaptive_nonfinite": 0
+}

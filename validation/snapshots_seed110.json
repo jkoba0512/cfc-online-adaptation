@@ -1,0 +1,45 @@
+{
+  "stage": "snapshots",
+  "package_files_verified": 678,
+  "seeds_filter": [
+    110
+  ],
+  "checks": {
+    "conditions": 6,
+    "checks": [
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 110,
+        "frozen_and_nominal_arrays_match": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 110,
+        "frozen_and_nominal_arrays_match": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 110,
+        "frozen_and_nominal_arrays_match": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 110,
+        "frozen_and_nominal_arrays_match": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 110,
+        "frozen_and_nominal_arrays_match": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 110,
+        "frozen_and_nominal_arrays_match": true
+      }
+    ]
+  },
+  "python": "3.11.13",
+  "torch": "2.12.0+cu130",
+  "numpy": "2.4.6"
+}

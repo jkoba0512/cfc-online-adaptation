@@ -1,0 +1,374 @@
+{
+  "stage": "diagnostics",
+  "package_files_verified": 678,
+  "seeds_filter": null,
+  "checks": {
+    "conditions": 60,
+    "checks": [
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 110,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 111,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 112,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 113,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 114,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 115,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 116,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 117,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 118,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-LMS",
+        "seed": 119,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 110,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 111,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 112,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 113,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 114,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 115,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 116,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 117,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 118,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "NCP-CfC-LMS",
+        "seed": 119,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 110,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 111,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 112,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 113,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 114,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 115,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 116,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 117,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 118,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "FC-CfC-LMS",
+        "seed": 119,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 110,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 111,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 112,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 113,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 114,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 115,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 116,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 117,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 118,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "ESN-LMS",
+        "seed": 119,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 110,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 111,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 112,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 113,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 114,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 115,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 116,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 117,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 118,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "RBF-LMS",
+        "seed": 119,
+        "arrays_bit_identical": 96,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 110,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 111,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 112,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 113,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 114,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 115,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 116,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 117,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 118,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      },
+      {
+        "method": "dense-CfC-RLS",
+        "seed": 119,
+        "arrays_bit_identical": 98,
+        "technical_checks_passed": true
+      }
+    ],
+    "all_saved_arrays_bit_identical": true
+  },
+  "python": "3.11.13",
+  "torch": "2.12.0+cu130",
+  "numpy": "2.4.6"
+}

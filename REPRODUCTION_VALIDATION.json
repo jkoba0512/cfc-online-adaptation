@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "date": "2026-11-09",
+  "environment": {
+    "python": "3.11.13",
+    "torch": "2.12.0+cu130",
+    "numpy": "2.4.6",
+    "device": "CPU",
+    "environment_outside_NAS": true
+  },
+  "online": {
+    "computed_protocols": 783,
+    "selected_rates_match": true,
+    "all_saved_curves_match": true,
+    "finite_identical": 727,
+    "nonfinite_pattern_reproduced": 56
+  },
+  "diagnostics": {
+    "conditions": 60,
+    "all_saved_arrays_bit_identical": true,
+    "derived_features_checked_by_exact_byte_hash": true
+  },
+  "offline": {
+    "seed": 110,
+    "models_retrained_or_refit": 5,
+    "all_model_tensors_bit_identical": true
+  },
+  "snapshots": {
+    "seed": 110,
+    "conditions": 6,
+    "all_arrays_match": true
+  },
+  "figures_and_tables": {
+    "revision_aux_table.tex": true,
+    "revision_main_table.tex": true,
+    "diagnostic_table.tex": true,
+    "revision_seed_table.tex": true,
+    "diagnostic_comparison.pdf": true,
+    "revision_sensitivity.pdf": true,
+    "revision_main.pdf": true,
+    "diagnostic_waveforms.pdf": true
+  },
+  "unit_tests_passed": 30,
+  "limits": [
+    "Offline retraining/refitting was checked for seed 110 (five models), not all 65 supplied models.",
+    "The offline stage uses recorded ESN/RBF family settings; candidate family-setting selection was not repeated.",
+    "JSON stores non-finite values as null, preserving missing locations and flags rather than distinguishing NaN and signed infinity."
+  ],
+  "report_files": [
+    "validation/online.json",
+    "validation/diagnostics.json",
+    "validation/offline_seed110.json",
+    "validation/snapshots_seed110.json",
+    "validation/figures.json"
+  ]
+}

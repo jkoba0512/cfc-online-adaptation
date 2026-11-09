@@ -1,0 +1,21 @@
+{
+  "schema": "submission6-provenance-v1",
+  "checkpoint_files": 65,
+  "checkpoint_tensors_changed": false,
+  "retained_scientific_values_changed": false,
+  "numerical_source_files_changed": false,
+  "dataset_counts": {
+    "selection": 135,
+    "evaluation": 333,
+    "adaptive_evaluation": 180,
+    "new_sensitivity": 315,
+    "stored_online": 783,
+    "diagnostics": 60,
+    "protocol_total": 843,
+    "adaptive_sensitivity_outcomes": 405,
+    "finite_sensitivity_outcomes": 349,
+    "field_on_fixed_cycles": 120,
+    "field_on_fixed_reaches": 960
+  },
+  "manifest_role": "Prepared dataset metadata; source-file and checkpoint hashes are supplied separately."
+}

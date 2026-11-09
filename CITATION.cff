@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the version-specific Zenodo archive DOI once this release is published. The DOI will be added before publication."
+message: "Please cite this release using its Zenodo DOI once it has been archived."
 type: software
 title: "Readout adaptation in simulated arm reaching: code and data"
 version: "biorxiv-v4"

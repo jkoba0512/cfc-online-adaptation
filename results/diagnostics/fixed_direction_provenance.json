@@ -1,0 +1,12 @@
+{
+  "analysis": "Post-hoc direction-level reaggregation; no new experiments",
+  "source_sha256": {
+    "results/runs.jsonl": "6ecadc757670ba39753d9b03ac86bf28f09868604532243193216a6e5da7bf50",
+    "results/diagnostics/frozen_per_reach.csv": "fd23866f2eae0e54170c9b81d836a9e709978125b8e4aaf46a08f6601da711b8"
+  },
+  "metric": "maximum absolute perpendicular deviation in millimeters",
+  "summary": "median across ten within-seed fixed-post/adaptive-final error ratios, separately by method and direction",
+  "last_trained_direction_index": 7,
+  "pairs": 480,
+  "summary_rows": 48
+}

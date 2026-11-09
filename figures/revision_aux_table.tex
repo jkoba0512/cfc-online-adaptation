@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\small
+\caption{Reversed and stronger fields on evaluation seeds 110--119, without rate retuning. Final B and AE ratio are medians across ten seeds; AE counts seeds passing threshold 0.25; Reversed /8 gives the minimum--maximum direction count across seeds.}
+\label{tab:revision-aux}
+\begin{tabular}{llrrrr}
+\toprule
+Method & $b$ & Final B (mm) & AE ratio & AE & Reversed /8 \\
+\midrule
+Dense CfC LMS & -13 & 0.818 & 0.965 & 10/10 & 8--8 \\
+Dense CfC LMS & +25 & 1.675 & 0.948 & 10/10 & 8--8 \\
+NCP-wired CfC LMS & -13 & 0.851 & 0.926 & 10/10 & 8--8 \\
+NCP-wired CfC LMS & +25 & 1.704 & 0.900 & 10/10 & 8--8 \\
+FC-wired CfC LMS & -13 & 0.822 & 0.969 & 10/10 & 8--8 \\
+FC-wired CfC LMS & +25 & 1.361 & 0.935 & 10/10 & 8--8 \\
+ESN LMS & -13 & 0.203 & 0.799 & 10/10 & 8--8 \\
+ESN LMS & +25 & 0.259 & 0.760 & 10/10 & 8--8 \\
+RBF LMS & -13 & 5.810 & 0.518 & 10/10 & 7--8 \\
+RBF LMS & +25 & 9.082 & 0.490 & 10/10 & 7--7 \\
+Dense CfC RLS & -13 & 0.832 & 0.989 & 10/10 & 8--8 \\
+Dense CfC RLS & +25 & 1.486 & 1.028 & 10/10 & 8--8 \\
+\bottomrule\end{tabular}
+\end{table}

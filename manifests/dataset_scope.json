@@ -1,0 +1,69 @@
+{
+  "schema": "submission6-dataset-scope-v1",
+  "included_adaptive_methods": [
+    "dense-CfC-LMS",
+    "NCP-CfC-LMS",
+    "FC-CfC-LMS",
+    "ESN-LMS",
+    "RBF-LMS",
+    "dense-CfC-RLS"
+  ],
+  "included_reference_methods": [
+    "B0-dense-CfC",
+    "B0-NCP-CfC",
+    "B0-FC-CfC",
+    "B0-ESN",
+    "B0-RBF",
+    "PD-only"
+  ],
+  "selection_seeds": [
+    100,
+    101,
+    102
+  ],
+  "evaluation_seeds": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "source_dataset_counts": {
+    "selection": 135,
+    "evaluation": 333,
+    "adaptive_evaluation": 180,
+    "new_sensitivity": 315,
+    "stored_online": 783,
+    "diagnostics": 60,
+    "protocol_total": 843,
+    "adaptive_sensitivity_outcomes": 405,
+    "finite_sensitivity_outcomes": 349,
+    "field_on_fixed_cycles": 120,
+    "field_on_fixed_reaches": 960
+  },
+  "counts": {
+    "selection": 135,
+    "evaluation": 333,
+    "adaptive_evaluation": 180,
+    "new_sensitivity": 315,
+    "stored_online": 783,
+    "diagnostics": 60,
+    "protocol_total": 843,
+    "adaptive_sensitivity_outcomes": 405,
+    "finite_sensitivity_outcomes": 349,
+    "field_on_fixed_cycles": 120,
+    "field_on_fixed_reaches": 960
+  },
+  "figure_input_sha256": {
+    "evaluation_per_seed.csv": "527b0c838962155fca0a424cd63878cc9343e34e1f5b581efdb2d3a6deb34153",
+    "diagnostics/diagnostics_summary.csv": "28f3de791e62ac489021d05a546e25891bc345aa1072dcec718d856c1d35e48c",
+    "runs.jsonl": "6ecadc757670ba39753d9b03ac86bf28f09868604532243193216a6e5da7bf50",
+    "sensitivity_eta_pd_per_seed.csv": "92ae2e2c39a5946ef94a225bc7daeee84591a85a7bb9a36ea29bde8cdd1a8a83"
+  },
+  "figure_input_sha256_note": "Byte hashes refer to files in the supplied results directory."
+}

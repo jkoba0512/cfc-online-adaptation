@@ -1,0 +1,19 @@
+{
+  "stage": "figures",
+  "package_files_verified": 678,
+  "seeds_filter": null,
+  "checks": {
+    "figures_and_tables_regenerated": true,
+    "publication_methods": [
+      "dense-CfC-LMS",
+      "NCP-CfC-LMS",
+      "FC-CfC-LMS",
+      "ESN-LMS",
+      "RBF-LMS",
+      "dense-CfC-RLS"
+    ]
+  },
+  "python": "3.11.13",
+  "torch": "2.12.0+cu130",
+  "numpy": "2.4.6"
+}

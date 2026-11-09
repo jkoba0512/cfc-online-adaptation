@@ -1,0 +1,668 @@
+{
+  "schema": "submission6-model-spec-v1",
+  "purpose": "Model preparation and task settings for the six-method submission dataset",
+  "selection_seeds": [
+    100,
+    101,
+    102
+  ],
+  "evaluation_seeds": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "wiring_seeds": {
+    "100": 22300,
+    "101": 22301,
+    "102": 22302,
+    "110": 22310,
+    "111": 22311,
+    "112": 22312,
+    "113": 22313,
+    "114": 22314,
+    "115": 22315,
+    "116": 22316,
+    "117": 22317,
+    "118": 22318,
+    "119": 22319
+  },
+  "configs": {
+    "dense": "dense_backbone",
+    "ncp": "ncp_wired",
+    "fc": "fc_wired"
+  },
+  "ridge_families": [
+    "esn",
+    "rbf"
+  ],
+  "training": {
+    "epochs": 400,
+    "ckpt_every": 10,
+    "lr": 0.001,
+    "optimizer": "Adam",
+    "batch": "full",
+    "loss": "MSE",
+    "selection": "none: final epoch 400 of every series",
+    "loop": "budget_pilot.train_series (identical to the pilot)",
+    "selection_seed_checkpoints": "pilot epoch0400.pt reused (no retraining)",
+    "evaluation_seed_checkpoints": "new 400-epoch series"
+  },
+  "ridge": {
+    "esn_grid": [
+      [
+        0.5,
+        0.1,
+        0.1
+      ],
+      [
+        0.5,
+        0.1,
+        0.3
+      ],
+      [
+        0.5,
+        0.1,
+        1.0
+      ],
+      [
+        0.5,
+        0.3,
+        0.1
+      ],
+      [
+        0.5,
+        0.3,
+        0.3
+      ],
+      [
+        0.5,
+        0.3,
+        1.0
+      ],
+      [
+        0.5,
+        1.0,
+        0.1
+      ],
+      [
+        0.5,
+        1.0,
+        0.3
+      ],
+      [
+        0.5,
+        1.0,
+        1.0
+      ],
+      [
+        0.9,
+        0.1,
+        0.1
+      ],
+      [
+        0.9,
+        0.1,
+        0.3
+      ],
+      [
+        0.9,
+        0.1,
+        1.0
+      ],
+      [
+        0.9,
+        0.3,
+        0.1
+      ],
+      [
+        0.9,
+        0.3,
+        0.3
+      ],
+      [
+        0.9,
+        0.3,
+        1.0
+      ],
+      [
+        0.9,
+        1.0,
+        0.1
+      ],
+      [
+        0.9,
+        1.0,
+        0.3
+      ],
+      [
+        0.9,
+        1.0,
+        1.0
+      ],
+      [
+        1.2,
+        0.1,
+        0.1
+      ],
+      [
+        1.2,
+        0.1,
+        0.3
+      ],
+      [
+        1.2,
+        0.1,
+        1.0
+      ],
+      [
+        1.2,
+        0.3,
+        0.1
+      ],
+      [
+        1.2,
+        0.3,
+        0.3
+      ],
+      [
+        1.2,
+        0.3,
+        1.0
+      ],
+      [
+        1.2,
+        1.0,
+        0.1
+      ],
+      [
+        1.2,
+        1.0,
+        0.3
+      ],
+      [
+        1.2,
+        1.0,
+        1.0
+      ]
+    ],
+    "rbf_grid": [
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "lam_grid": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "rule": "family setting = min mean validation NMSE over the selection seeds after the per-seed ridge choice; per-seed lambda by validation; an edge selection is recorded, never extended; online results never adjust these settings",
+    "selection_seeds": [
+      100,
+      101,
+      102
+    ]
+  },
+  "eta": {
+    "multipliers": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0,
+      300.0
+    ],
+    "center": "1e-3 * g_dense / g_family, g = mean selection-seed training feature energy of the final-epoch models",
+    "edge_rule": "an edge selection is reported with code grid_edge; the grid is not extended"
+  },
+  "online": {
+    "selection_field": 13.0,
+    "evaluation_fields": [
+      13.0,
+      -13.0,
+      25.0
+    ],
+    "pd_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "protocol": "A1 -> B30 -> catch1 (adapt off) -> washout5 (adapt on)",
+    "task": {
+      "center_xy": [
+        0.0,
+        0.45
+      ],
+      "radius": 0.1,
+      "T": 0.5,
+      "dt": 0.005,
+      "Kp": [
+        35.0,
+        25.0
+      ],
+      "Kd": [
+        3.5,
+        2.5
+      ],
+      "direction_order": "fixed",
+      "error_signal": "fel"
+    },
+    "methods": {
+      "B0-dense-CfC": [
+        "dense",
+        "frozen",
+        null
+      ],
+      "B0-NCP-CfC": [
+        "ncp",
+        "frozen",
+        null
+      ],
+      "B0-FC-CfC": [
+        "fc",
+        "frozen",
+        null
+      ],
+      "B0-ESN": [
+        "esn",
+        "frozen",
+        null
+      ],
+      "B0-RBF": [
+        "rbf",
+        "frozen",
+        null
+      ],
+      "PD-only": [
+        "dense",
+        "null",
+        null
+      ],
+      "dense-CfC-LMS": [
+        "dense",
+        "lms",
+        "dense"
+      ],
+      "NCP-CfC-LMS": [
+        "ncp",
+        "lms",
+        "ncp"
+      ],
+      "FC-CfC-LMS": [
+        "fc",
+        "lms",
+        "fc"
+      ],
+      "ESN-LMS": [
+        "esn",
+        "lms",
+        "esn"
+      ],
+      "RBF-LMS": [
+        "rbf",
+        "lms",
+        "rbf"
+      ],
+      "dense-CfC-RLS": [
+        "dense",
+        "rls",
+        null
+      ]
+    },
+    "selected_methods": [
+      "dense-CfC-LMS",
+      "NCP-CfC-LMS",
+      "FC-CfC-LMS",
+      "ESN-LMS",
+      "RBF-LMS"
+    ],
+    "adaptive_methods": [
+      "dense-CfC-LMS",
+      "NCP-CfC-LMS",
+      "FC-CfC-LMS",
+      "ESN-LMS",
+      "RBF-LMS",
+      "dense-CfC-RLS"
+    ],
+    "B0_methods": [
+      "B0-dense-CfC",
+      "B0-NCP-CfC",
+      "B0-FC-CfC",
+      "B0-ESN",
+      "B0-RBF"
+    ],
+    "RLS": {
+      "beta": 1.0,
+      "p0": 0.1,
+      "selection": "none (fixed)"
+    },
+    "expected_job_counts": {
+      "select": 135,
+      "evaluate_adaptive": 180,
+      "evaluate_B0": 150,
+      "evaluate_PD_only": 3,
+      "diagnostics_rerun": 60,
+      "sensitivity_adaptive_new": 270,
+      "sensitivity_B0": 45,
+      "total": 843,
+      "frozen_cycles_not_counted": 120
+    }
+  },
+  "data": {
+    "center_xy": [
+      0.0,
+      0.45
+    ],
+    "train_radii": [
+      0.08,
+      0.1,
+      0.12
+    ],
+    "directions": 8,
+    "duration": 0.5,
+    "dt": 0.005,
+    "n_sequences": 24,
+    "val_frac": 0.25,
+    "split_rule": "dataset.train_val_split(seed=model seed); shared by all families",
+    "x_sha256": "fa6e3d6f3fbe62db46a7f7bf9acc53440cd1d32c92375860c8bf1785d41c5c1f",
+    "tau_sha256": "a8846060c86d132644fc4c68a13877cbf3b32d47284aa1295000074176a760c0",
+    "splits": {
+      "100": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "792d789ab689b3c6a4498d40a86402d74abfa19d8f07b6878f3d2a9a67063358",
+        "val_sha256_x": "f12b75035437157ff21eabdf20e65a1d78d5f1f68de9fc55bfe17a6cb6bafc9f",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          3,
+          5,
+          0,
+          4,
+          7,
+          7
+        ]
+      },
+      "101": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "a69a1d055e6beca40557a056b8ada33c0595755805494650a6d3c230de72794d",
+        "val_sha256_x": "97576a856c7b2def7fd4bf0198dbe8f269e1ecc8cfa9d6efd96f460dcfce2bc4",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          2,
+          3,
+          5,
+          0,
+          3,
+          7
+        ]
+      },
+      "102": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "09f4fa97590dda20b10e97e3625578bf57226d0b4d4da58af23aea6a2c5da8b4",
+        "val_sha256_x": "ee9925aa6f22273331c1e3baf646cb069ba78a50ea7518dda70db9226c354e08",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          0,
+          4,
+          6,
+          7,
+          5,
+          5
+        ]
+      },
+      "110": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "dcd8f40afcaecb54c65122d1c95e6b1044bcc6ef7bfb8fe089b55e32645760c5",
+        "val_sha256_x": "478caff59927f930065100d1230e77bc1f5e6533221da5761d20b892444a91c4",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          5,
+          1,
+          6,
+          7,
+          4,
+          7
+        ]
+      },
+      "111": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "2d785a1ee6842888fda715f691a3f4e7e21a54e18294e321b116252ef13b9fa2",
+        "val_sha256_x": "82ccb9ebd2aaf4f165cac21c45a4c8f1faf878013170c73ea7711512ca1535fd",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          0,
+          1,
+          7,
+          3,
+          4,
+          6
+        ]
+      },
+      "112": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "ce42136d7145baf4fe479aeb6934e57d4c992f00e55aca76f4314a462854843b",
+        "val_sha256_x": "08ad2c3163cf3f0db5db89b8640b637cd8cdd2d47ad39f2a6badbe81f0208a5f",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          6,
+          4,
+          6,
+          7,
+          6,
+          7
+        ]
+      },
+      "113": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "18132a178247556b0b526d4fd30fe1bedfe05f73101ada83c8d246f8d4e98868",
+        "val_sha256_x": "3ecda0b2f3882add595385ee72b61807df6186bd029829ebd80cd9b71467aa94",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          1
+        ]
+      },
+      "114": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "3877e0019ade522fae5117987e252c0423a616fa46fca6cccf577eef8d2c28b7",
+        "val_sha256_x": "5bf53d1c69df1d0eddb2ccf5c985d979b8bf60b739def4cc7f2a3d680a563e12",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          1,
+          3,
+          5,
+          7,
+          4,
+          5
+        ]
+      },
+      "115": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "9fe605c15f09f6bad03420d5c9ce767164f186335ed9abaa5bfc68ae7d50cd65",
+        "val_sha256_x": "3d26c8c888c63cd302fc553ff1096982d822916ccc67c17ff0493b3b71b2d11b",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          1,
+          2,
+          6,
+          7,
+          7,
+          1
+        ]
+      },
+      "116": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "3d55c6e7d3b55182250fa7445a5f3675f7b8ea9ec5bbc743b6a46f65b8094cae",
+        "val_sha256_x": "67c3d01a1e6508bc47174634e19f0c829db38af950f3cb46d2b7c06689fad562",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          0,
+          3,
+          6,
+          1,
+          4,
+          7
+        ]
+      },
+      "117": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "07e3af7304f588be3af7a140f3fec0241e6d714413fd58079ee64badc9c9d866",
+        "val_sha256_x": "628f3091ba4e1df0864a43fb50fbbd3b3081cd2c89eea393b1d5535b52c15ab3",
+        "val_radii": [
+          0.08,
+          0.1
+        ],
+        "val_directions": [
+          0,
+          4,
+          7,
+          0,
+          2,
+          4
+        ]
+      },
+      "118": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "35654834cebd220b0da09ae013931088205439df94f035c88e677bb38bafc6b1",
+        "val_sha256_x": "3633555a9f66108c92d0a51dd8521f986d6aee26eb4f15c5b6949531a16f0ca2",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          3,
+          4,
+          5,
+          5,
+          6,
+          7
+        ]
+      },
+      "119": {
+        "n_train": 18,
+        "n_val": 6,
+        "train_sha256_x": "83e536084140bc365df8fabffc09ae17e45dc1fc2555569209efc8939fec3e59",
+        "val_sha256_x": "e31f3678285375161b672548241d6049b8e7b6586807de038ed12237746b2a2d",
+        "val_radii": [
+          0.08,
+          0.1,
+          0.12
+        ],
+        "val_directions": [
+          0,
+          1,
+          1,
+          3,
+          5,
+          7
+        ]
+      }
+    },
+    "audit_set": {
+      "radii": [
+        0.09,
+        0.11
+      ],
+      "n_sequences": 16,
+      "x_sha256": "b23da151532f3f6df71236f37492dce73ebf67f5769b517da5976b549fe89789",
+      "tau_sha256": "8d5d10c25d58150af035a5f598c8401174caefdf3e301022acce0b522a655db1",
+      "use": "offline quality record only; never used for selection"
+    }
+  },
+  "source_sha256": {
+    "scripts/run_revision_offline.py": "240f6130ec36a7a75d74d27f3c385c7ca1665409b93b835463dae0062d52b48c",
+    "scripts/run_revision_baselines.py": "e2720e77decaf4119857351c9a84ca438cde85910dd08f5edd49422b87c116a6",
+    "src/cfc_online_adaptation/arm.py": "b7a6d0226b15042c763acb872b1bffb5bb347a002db6acd5b6bf3055afe3b274",
+    "src/cfc_online_adaptation/tasks.py": "22f5da399f86347ddf7f27933842a841f1b66268663aab463ad576637ead24a7",
+    "src/cfc_online_adaptation/dataset.py": "d9aca123e9d63e7e58f8f03c4408c44d0f839a8e077a855b196bd2e55815115f",
+    "src/cfc_online_adaptation/core.py": "f5d8f152bb8cd3e105a71ee407bfdfc5b33616f3d131d5652ee2caad92cca624",
+    "src/cfc_online_adaptation/experiment.py": "7585dd69ae42da9a0879b01521c5bb0fe351344f6318b0d378b1f643dac0f0de",
+    "src/cfc_online_adaptation/bases.py": "9c8f7a028cfafeabbdbd912b5458d3f35cef817fb4a2c5c23d2d01c3c85ac7f1",
+    "src/cfc_online_adaptation/readout.py": "9766b75ba4c458dbf59c5474627c2b5b0ba30b4ba127a7d252af8c18a7e89153",
+    "src/cfc_online_adaptation/adaptation.py": "3f3c250c80be6603c771e54e2e2efb74b3e9d2180855e3ece90ea8c89217e9da",
+    "src/cfc_online_adaptation/protocol.py": "3eea6ac7fdb348a51dc2a5323b092c004b8e12d41d5f0f61b4527b544c09e89c",
+    "src/cfc_online_adaptation/revision_manifest.py": "20800b7febde353b830f3eb8f79400e0ff35e6e3e37edb13c13c468e4bcf2d60",
+    "src/cfc_online_adaptation/budget_pilot.py": "831c244295abc6d24550e0cfac22df4fc991fae32513ceb86487cde4a5db8798",
+    "src/cfc_online_adaptation/revision_rerun.py": "0a6f11621b43ee153d709c47fe46f0b4b66a56f66cbb0a154d7bdaddffcba05d",
+    "scripts/run_revision_rerun.py": "08bc331ad5195c782abd0c3d25729b444a025a28c0f909dc89d38e1838b866a1",
+    "scripts/run_budget_pilot.py": "7ca58d4ad5a147c6bdf4931c1285076cb442942e4565c4221b9ff48892e102c7",
+    "src/cfc_online_adaptation/revision_online.py": "ef23ea8a93e35bf06afe940309f72e7e12b0b50e4d01e44cfe682abeafb4eca3",
+    "src/cfc_online_adaptation/readout_probe.py": "e51c7e8d4c19aa7dc811baef85d7efe19d00f65ced4ac8f40e0a55968a0cdf6b",
+    "src/cfc_online_adaptation/input_replay.py": "8cc81b4946fe0761810a22ef05154e16dc86a3d4085a78635dfbe40918ce2406",
+    "src/cfc_online_adaptation/frozen_closed_loop.py": "b536b1220da29c08d6398adc1ff442a32e758bf1e8a0956f142c6af3f07ace69",
+    "src/cfc_online_adaptation/metrics.py": "ffe587d4b5cd168c06b9015cb78201d06622d1f0b779ebed11573bf73d1a94d6",
+    "src/cfc_online_adaptation/baselines.py": "3afb76a38992054fbfd7073dda8204f9ba01a7712ed1990d2c3dcc0f95ae93ed",
+    "src/cfc_online_adaptation/analysis.py": "5485bf2923a5ac50ad2aee2f4f454cefcba1b4fb537ba37ac556daff4dc70308",
+    "tests/test_revision_rerun.py": "225802337d1f91ba0321110fa851615f79b59fc3f3f175d51b2cd2b0ce4a7be0",
+    "uv.lock": "310fe8ba01043f97c9e60e93758182e071135d8a2ba6340c24c0abc4a31d26a1"
+  }
+}

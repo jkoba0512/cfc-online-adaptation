@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\caption{Compensation and fixed-readout diagnostics on the same ten evaluation seeds, $b=13$. Each entry is a median over ten runs; $r_{\rm nom}$ first takes a median over the eight directions within each run. Tracking errors are in millimeters. Pre/post refer to readouts before/after exposure, held fixed with the same active PD feedback. Reduction is $100(1-E_{\rm post}/E_{\rm pre})$; post/adaptive is computed within each seed before taking its median. All conditions pass the coarse catch decision, but RBF reverses seven of eight directions.}
+\label{tab:diagnostics}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrrrr}
+\toprule
+Method & $r_{\rm nom}$ & Fixed pre & Adaptive & Fixed post & Reduction (\%) & Post/adaptive \\
+\midrule
+Dense CfC LMS & 0.0426 & 23.95 & 0.856 & 2.49 & 89.6 & 2.781 \\
+NCP-wired CfC LMS & 0.0930 & 24.02 & 0.906 & 4.00 & 83.4 & 4.200 \\
+FC-wired CfC LMS & 0.0418 & 24.01 & 0.773 & 2.40 & 90.0 & 3.067 \\
+ESN LMS & 0.0097 & 24.10 & 0.188 & 1.10 & 95.5 & 5.874 \\
+RBF LMS & 0.3832 & 23.95 & 5.161 & 11.86 & 50.5 & 2.282 \\
+Dense CfC RLS & 0.0183 & 23.95 & 0.793 & 0.79 & 96.7 & 0.994 \\
+\bottomrule\end{tabular}}
+\end{table}

@@ -1,0 +1,20 @@
+{
+  "numerical_entrypoints_unchanged": [
+    "jobs_select",
+    "jobs_evaluate",
+    "jobs_sensitivity",
+    "diagnostic_conditions",
+    "model",
+    "init_worker",
+    "online_job",
+    "diag_job",
+    "run_jobs",
+    "online",
+    "diagnostics",
+    "offline"
+  ],
+  "modified_functions": [
+    "runtime_manifest: additional guards",
+    "snapshots: remove unreachable unused branch"
+  ]
+}

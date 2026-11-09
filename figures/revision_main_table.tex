@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\caption{Online adaptation at $b=13$ on evaluation seeds 110--119. First B, Final B, Reduction, and Catch are medians across ten seeds. AE counts passing seeds; Reversed /8 gives the minimum--maximum direction count across seeds. Reduction uses each model\textquotesingle s own frozen-readout reference. The after-effect decision uses the sign and direction-mean ratio threshold 0.25. Direction counts describe target directions within a run, not independent samples.}
+\label{tab:revision-main}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrrrr}
+\toprule
+Method & First B (mm) & Final B (mm) & Reduction (\%) & Catch (mm) & AE & Reversed /8 \\
+\midrule
+Dense CfC LMS & 5.60 & 0.856 & 96.4 & -22.85 & 10/10 & 8 \\
+NCP-wired CfC LMS & 5.57 & 0.906 & 96.2 & -21.85 & 10/10 & 8 \\
+FC-wired CfC LMS & 6.25 & 0.773 & 96.8 & -22.68 & 10/10 & 8 \\
+ESN LMS & 2.19 & 0.188 & 99.2 & -18.89 & 10/10 & 8 \\
+RBF LMS & 9.92 & 5.161 & 78.4 & -11.51 & 10/10 & 7 \\
+Dense CfC RLS & 5.13 & 0.793 & 96.7 & -23.82 & 10/10 & 8 \\
+\bottomrule\end{tabular}}
+\end{table}

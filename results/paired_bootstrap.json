@@ -1,0 +1,380 @@
+{
+  "primary": {
+    "pair": [
+      "NCP-CfC-LMS",
+      "dense-CfC-LMS"
+    ],
+    "field_b": 13.0,
+    "metric": "B_last_mm",
+    "n_pairs_total": 10,
+    "n_pairs_used": 10,
+    "n_excluded": 0,
+    "excluded": [],
+    "pairs": [
+      {
+        "seed": 110,
+        "num": 1.1747880917446172,
+        "den": 0.893990678641346,
+        "used": true,
+        "log_ratio": 0.2731477143188313,
+        "reason": ""
+      },
+      {
+        "seed": 111,
+        "num": 0.8273293332338335,
+        "den": 1.0124351875948518,
+        "used": true,
+        "log_ratio": -0.2019109425259721,
+        "reason": ""
+      },
+      {
+        "seed": 112,
+        "num": 1.142111367307876,
+        "den": 1.009720997654484,
+        "used": true,
+        "log_ratio": 0.12320457326730906,
+        "reason": ""
+      },
+      {
+        "seed": 113,
+        "num": 0.9113062201138793,
+        "den": 0.889751100634432,
+        "used": true,
+        "log_ratio": 0.0239372156130799,
+        "reason": ""
+      },
+      {
+        "seed": 114,
+        "num": 0.8997048725561857,
+        "den": 0.7638863929243173,
+        "used": true,
+        "log_ratio": 0.1636477124162931,
+        "reason": ""
+      },
+      {
+        "seed": 115,
+        "num": 0.8899630089656001,
+        "den": 0.8626752468396764,
+        "used": true,
+        "log_ratio": 0.03114158589447714,
+        "reason": ""
+      },
+      {
+        "seed": 116,
+        "num": 0.8203634397678082,
+        "den": 0.6227494439536215,
+        "used": true,
+        "log_ratio": 0.275603200041417,
+        "reason": ""
+      },
+      {
+        "seed": 117,
+        "num": 1.1216509659034148,
+        "den": 0.8484947132587075,
+        "used": true,
+        "log_ratio": 0.2790931016401607,
+        "reason": ""
+      },
+      {
+        "seed": 118,
+        "num": 1.0856883553867387,
+        "den": 0.6527777243723363,
+        "used": true,
+        "log_ratio": 0.5087328138739304,
+        "reason": ""
+      },
+      {
+        "seed": 119,
+        "num": 0.6507265232681311,
+        "den": 0.8286284952378953,
+        "used": true,
+        "log_ratio": -0.2416824518689824,
+        "reason": ""
+      }
+    ],
+    "n_boot": 10000,
+    "bootstrap_seed": 20261107,
+    "n_num_smaller": 2,
+    "n_den_smaller": 8,
+    "n_equal": 0,
+    "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+    "mean_log_ratio": 0.12349145226705442,
+    "ci95": [
+      -0.014891633495922927,
+      0.25795727994753986
+    ],
+    "ratio_of_geomeans": 1.1314403332509324
+  },
+  "secondary": {
+    "NCP-CfC-LMS vs dense-CfC-LMS b=+13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 2,
+      "n_den_smaller": 8,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 0.12349145226705442,
+      "ci95": [
+        -0.014891633495922927,
+        0.25795727994753986
+      ],
+      "ratio_of_geomeans": 1.1314403332509324
+    },
+    "FC-CfC-LMS vs dense-CfC-LMS b=+13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 6,
+      "n_den_smaller": 4,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -0.06527189966976624,
+      "ci95": [
+        -0.20650636723837865,
+        0.08698602429570794
+      ],
+      "ratio_of_geomeans": 0.9368127096788552
+    },
+    "ESN-LMS vs dense-CfC-LMS b=+13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 10,
+      "n_den_smaller": 0,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -1.4619147807747621,
+      "ci95": [
+        -1.7102294619590241,
+        -1.2002710952877074
+      ],
+      "ratio_of_geomeans": 0.23179201863795024
+    },
+    "RBF-LMS vs dense-CfC-LMS b=+13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 0,
+      "n_den_smaller": 10,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 1.8320020585580994,
+      "ci95": [
+        1.717116750073599,
+        1.9474094765024335
+      ],
+      "ratio_of_geomeans": 6.246379766453515
+    },
+    "dense-CfC-RLS vs dense-CfC-LMS b=+13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 5,
+      "n_den_smaller": 5,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -0.04568804295471908,
+      "ci95": [
+        -0.15923992550105504,
+        0.06635074115440381
+      ],
+      "ratio_of_geomeans": 0.9553399407351956
+    },
+    "NCP-CfC-LMS vs dense-CfC-LMS b=-13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 5,
+      "n_den_smaller": 5,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 0.10680224969177624,
+      "ci95": [
+        -0.07428867986611305,
+        0.298045119436084
+      ],
+      "ratio_of_geomeans": 1.1127141931467848
+    },
+    "FC-CfC-LMS vs dense-CfC-LMS b=-13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 6,
+      "n_den_smaller": 4,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -0.0063592515478894385,
+      "ci95": [
+        -0.15044480720570386,
+        0.13321842472886103
+      ],
+      "ratio_of_geomeans": 0.9936609256988498
+    },
+    "ESN-LMS vs dense-CfC-LMS b=-13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 10,
+      "n_den_smaller": 0,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -1.3438552717505248,
+      "ci95": [
+        -1.5000773273690562,
+        -1.1700851741994405
+      ],
+      "ratio_of_geomeans": 0.2608381257948057
+    },
+    "RBF-LMS vs dense-CfC-LMS b=-13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 0,
+      "n_den_smaller": 10,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 1.9376311652363634,
+      "ci95": [
+        1.7772722658355318,
+        2.0863310455849446
+      ],
+      "ratio_of_geomeans": 6.942286348110743
+    },
+    "dense-CfC-RLS vs dense-CfC-LMS b=-13": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 5,
+      "n_den_smaller": 5,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 0.04528636510148932,
+      "ci95": [
+        -0.052072499146903276,
+        0.1482175337301465
+      ],
+      "ratio_of_geomeans": 1.046327448676817
+    },
+    "NCP-CfC-LMS vs dense-CfC-LMS b=+25": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 3,
+      "n_den_smaller": 7,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 0.07820491208851928,
+      "ci95": [
+        -0.075630656223508,
+        0.22491622327464478
+      ],
+      "ratio_of_geomeans": 1.0813442164711773
+    },
+    "FC-CfC-LMS vs dense-CfC-LMS b=+25": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 7,
+      "n_den_smaller": 3,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -0.11880704101748488,
+      "ci95": [
+        -0.2750986953111103,
+        0.04033494685109073
+      ],
+      "ratio_of_geomeans": 0.8879791277808661
+    },
+    "ESN-LMS vs dense-CfC-LMS b=+25": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 10,
+      "n_den_smaller": 0,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -1.8185493212490251,
+      "ci95": [
+        -2.060261856317042,
+        -1.579325962789552
+      ],
+      "ratio_of_geomeans": 0.16226096881941476
+    },
+    "RBF-LMS vs dense-CfC-LMS b=+25": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 0,
+      "n_den_smaller": 10,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": 1.7203978303647278,
+      "ci95": [
+        1.6204825533161973,
+        1.828350074984514
+      ],
+      "ratio_of_geomeans": 5.586750601259305
+    },
+    "dense-CfC-RLS vs dense-CfC-LMS b=+25": {
+      "n_pairs_total": 10,
+      "n_pairs_used": 10,
+      "n_excluded": 0,
+      "excluded": [],
+      "n_boot": 10000,
+      "bootstrap_seed": 20261107,
+      "n_num_smaller": 7,
+      "n_den_smaller": 3,
+      "n_equal": 0,
+      "note": "descriptive paired interval over shared data-split pairs; not a superiority test; pair differences include configuration, init and wiring-seed effects",
+      "mean_log_ratio": -0.07112082597751977,
+      "ci95": [
+        -0.15399440930294342,
+        0.0221273312705616
+      ],
+      "ratio_of_geomeans": 0.9313493541328469
+    }
+  }
+}

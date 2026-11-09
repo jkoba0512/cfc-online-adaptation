@@ -1,0 +1,2702 @@
+{
+  "dense-CfC-LMS_s110": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243695,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s111": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243699,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s112": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243641,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s113": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243661,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s114": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243724,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s115": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243643,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s116": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243727,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s117": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243710,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s118": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243757,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-LMS_s119": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243692,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s110": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243651,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s111": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243690,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s112": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243658,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s113": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243706,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s114": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243645,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s115": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243692,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s116": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243727,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s117": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243626,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s118": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243615,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "NCP-CfC-LMS_s119": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243722,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s110": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243774,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s111": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243682,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s112": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243719,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s113": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243595,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s114": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243714,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s115": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243711,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s116": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243718,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s117": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243684,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s118": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243754,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "FC-CfC-LMS_s119": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243704,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s110": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243957,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s111": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243977,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s112": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243882,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s113": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2244013,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s114": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243928,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s115": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2244030,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s116": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243943,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s117": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243921,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s118": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243933,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "ESN-LMS_s119": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243891,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s110": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243401,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s111": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243430,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s112": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243433,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s113": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243410,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s114": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243442,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s115": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243402,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s116": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243394,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s117": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243359,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s118": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243413,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "RBF-LMS_s119": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2243411,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s110": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309681,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s111": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309774,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s112": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309697,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s113": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309698,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s114": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309728,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s115": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309682,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s116": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309790,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s117": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309716,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s118": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309678,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  },
+  "dense-CfC-RLS_s119": {
+    "passed": true,
+    "failed_checks": [],
+    "bytes": 2309687,
+    "pre_equals_fresh_readout": true,
+    "final_J_equals_live_readout": true,
+    "pre_unchanged_by_protocol": true,
+    "post_state_finite": true,
+    "determinism_vs_stage_c": {
+      "status": "bit_identical",
+      "n_cycles": 32,
+      "nonfinite_involved": false,
+      "first_mismatch": null
+    },
+    "snapshot_restore_equal": true,
+    "weights_unchanged_by_probe": true,
+    "pre_b0:readout_unchanged": true,
+    "pre_b13:readout_unchanged": true,
+    "pre_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "post_b0:readout_unchanged": true,
+    "post_b13:readout_unchanged": true,
+    "post_b13:tau_ff_reproduced_from_inputs": {
+      "max_abs_diff_finite_reaches": 0.0,
+      "bit_identical": true,
+      "status": "checked",
+      "within_1e-12": true,
+      "n_finite_reaches": 8
+    },
+    "A_cycle_reproduced_by_frozen_pre_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "catch_cycle_reproduced_by_frozen_post_b0": {
+      "equal": true,
+      "nonfinite_involved": false
+    },
+    "core_unchanged": true,
+    "pre_post_unchanged_after_frozen_runs": true
+  }
+}
