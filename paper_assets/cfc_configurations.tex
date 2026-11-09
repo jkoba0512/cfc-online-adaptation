@@ -1,0 +1,54 @@
+% Structural comparison of the installed ncps CfC implementations.
+% Schematic computation paths, not a neuron-level connectivity diagram.
+\definecolor{cfgblue}{HTML}{0072B2}
+\definecolor{cfgorange}{HTML}{B85C00}
+\begin{tikzpicture}[>=Stealth,font=\small,
+ box/.style={draw,rounded corners=2pt,align=center,minimum height=1.05cm,line width=.7pt},
+ core/.style={box,draw=cfgblue,fill=cfgblue!9},
+ read/.style={box,draw=cfgorange,fill=cfgorange!12,text width=2.0cm},
+ flow/.style={->,thick},collect/.style={thick,draw=cfgblue}]
+
+% Equal horizontal positions make the two meanings of fully connected explicit.
+\node[anchor=west,font=\bfseries] at (-.5,1.15) {(a) Dense-backbone CfC};
+\node[align=center] (di) at (0,0) {Input\\$x_t\in\mathbb R^{10}$};
+\node[box,fill=black!3,text width=2.1cm] (dc) at (2.9,0) {Input + previous state\\$[x_t,h_{t-1}]$};
+\node[core,text width=2.45cm] (db) at (6.2,0) {Backbone\\128-unit fully\\connected layer};
+\node[core,text width=2.2cm] (du) at (9.6,0) {CfC state update\\64 states};
+
+\node[read] (dr) at (15.4,0) {External readout\\$J_t\in\mathbb R^{2\times64}$};
+\node[align=center] (do) at (18,0) {Torque\\$J_tz_t\in\mathbb R^2$};
+\draw[flow] (di)--(dc);\draw[flow] (dc)--(db);\draw[flow] (db)--(du);
+\draw[flow] (du.east)--node[above,align=center]{$z_t=h_t$\\64 features}(dr.west);\draw[flow] (dr)--(do);
+\node[anchor=west,text=cfgblue] at (4.8,-1.05) {Fully connected describes the internal backbone layer.};
+
+\node[anchor=west,font=\bfseries] at (-.5,-2.05) {(b) FC-wired CfC};
+\node[align=center] (fi) at (0,-3.2) {Input\\$x_t\in\mathbb R^{10}$};
+\node[box,fill=black!3,text width=2.1cm] (fc) at (2.9,-3.2) {Input + previous state\\$[x_t,h_{t-1}]$};
+\node[core,text width=2.2cm] (fu) at (9.6,-3.2) {CfC state update\\one 64-state group};
+
+\node[read] (fr) at (15.4,-3.2) {External readout\\$J_t\in\mathbb R^{2\times64}$};
+\node[align=center] (fo) at (18,-3.2) {Torque\\$J_tz_t\in\mathbb R^2$};
+\draw[flow] (fi)--(fc);\draw[flow] (fc)--node[above]{No backbone}(fu);
+\draw[flow] (fu.east)--node[above,align=center]{$z_t=h_t$\\64 features}(fr.west);\draw[flow] (fr)--(fo);
+\node[anchor=west,text=cfgblue] at (4.8,-4.25) {Fully connected describes the wiring of the single state group.};
+
+\node[anchor=west,font=\bfseries] at (-.5,-5.25) {(c) NCP-wired CfC};
+\node[align=center] (ni) at (0,-6.45) {Input\\$x_t\in\mathbb R^{10}$};
+\node[core,text width=2.0cm] (n1) at (3.4,-6.45) {CfC group\\38 states\\uses own prior state};
+\node[core,text width=2.0cm] (n2) at (6.5,-6.45) {CfC group\\24 states\\uses own prior state};
+\node[core,text width=2.0cm] (n3) at (9.6,-6.45) {CfC group\\2 states\\uses own prior state};
+\node[box,fill=cfgblue!4,text width=2.0cm] (ns) at (12.6,-6.45) {Concatenate\\all three groups\\$z_t\in\mathbb R^{64}$};
+\node[read] (nr) at (15.4,-6.45) {External readout\\$J_t\in\mathbb R^{2\times64}$};
+\node[align=center] (no) at (18,-6.45) {Torque\\$J_tz_t\in\mathbb R^2$};
+\draw[flow] (ni)--(n1);\draw[flow] (n1)--(n2);\draw[flow] (n2)--(n3);
+\draw[collect] (n1.south)--(3.4,-7.65)--(12.6,-7.65);
+\draw[collect] (n2.south)--(6.5,-7.65);
+\draw[collect] (n3.south)--(9.6,-7.65);
+\draw[flow,draw=cfgblue] (12.6,-7.65)--(ns.south);
+\draw[flow] (ns)--(nr);\draw[flow] (nr)--(no);
+\node[anchor=west,text=cfgblue] at (1.8,-8.25) {No backbone; three groups updated sequentially within each time step.};
+
+\node[align=center,font=\small] at (8.75,-9.2) {\textcolor{cfgblue}{Blue: feature-generator parameters fixed online}\qquad
+\textcolor{cfgorange}{Orange: readout weights updated online}\\
+Common to all three: 400 offline epochs; 64 recurrent state features; 128 external readout weights.};
+\end{tikzpicture}

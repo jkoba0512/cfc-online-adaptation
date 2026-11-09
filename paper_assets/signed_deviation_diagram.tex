@@ -1,0 +1,33 @@
+% Schematic only. Sign follows metrics.py: rel_x*u_y - rel_y*u_x.
+\definecolor{referenceblue}{HTML}{0072B2}
+\definecolor{catchorange}{HTML}{B85C00}
+\begin{tikzpicture}[>=Stealth,font=\small,line cap=round]
+\begin{scope}
+\node[anchor=west,font=\small\bfseries] at (-.15,2.25) {(a) Fixed readout, field on (B0)};
+\draw[->,gray,dashed] (0,0)--(5.3,0);
+\node[above] at (4.15,0) {Target line};
+\draw[referenceblue,very thick] (0,0) .. controls (1,-.3) and (2,-1.3) .. (3.2,-1.3)
+ .. controls (4.05,-1.3) and (4.65,-.3) .. (5,0);
+\draw[referenceblue,<->,thick] (3.2,0)--node[right,fill=white,inner sep=2pt] {$r_d>0$} (3.2,-1.3);
+\fill[referenceblue] (3.2,-1.3) circle (2pt);
+\node[below,referenceblue] at (3.2,-1.4) {Maximum absolute deviation};
+\fill (0,0) circle (2pt) node[above left] {Start};
+\draw[fill=white] (5,0) circle (3pt) node[above right] {Target};
+\draw[->,gray] (.5,.85)--(1.65,.85) node[right,black] {Reach direction $d$};
+\end{scope}
+\begin{scope}[xshift=7cm]
+\node[anchor=west,font=\small\bfseries] at (-.15,2.25) {(b) Adapted readout, field off (catch)};
+\draw[->,gray,dashed] (0,0)--(5.3,0);
+\node[below] at (4.15,0) {Target line};
+\draw[catchorange,very thick] (0,0) .. controls (.6,.4) and (1.4,1.3) .. (2.2,1.3)
+ .. controls (3.2,1.3) and (4.65,.3) .. (5,0);
+\draw[catchorange,<->,thick] (2.2,0)--node[right,fill=white,inner sep=2pt] {$c_d<0$} (2.2,1.3);
+\fill[catchorange] (2.2,1.3) circle (2pt);
+\node[above,catchorange] at (2.2,1.4) {Maximum absolute deviation};
+\fill (0,0) circle (2pt) node[below left] {Start};
+\draw[fill=white] (5,0) circle (3pt) node[below right] {Target};
+\end{scope}
+\node[align=center,font=\footnotesize] at (6,-2.25)
+ {Sign convention for the illustrated rightward reach: below the target line is positive; above is negative.\\
+Each trajectory is measured at its own maximum absolute deviation; the sample times can differ.};
+\end{tikzpicture}

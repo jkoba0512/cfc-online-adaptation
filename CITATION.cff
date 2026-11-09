@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific Zenodo archive DOI once this release is published. The DOI will be added before publication."
+type: software
+title: "Readout adaptation in simulated arm reaching: code and data"
+version: "biorxiv-v4"
+authors:
+  - family-names: Kobayashi
+    given-names: Jun
+    affiliation: Kyushu Institute of Technology
+repository-code: "https://github.com/jkoba0512/cfc-online-adaptation"
+license: MIT

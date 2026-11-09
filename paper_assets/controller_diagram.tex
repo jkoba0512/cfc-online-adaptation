@@ -1,0 +1,38 @@
+% Native vector diagram; matches adaptation.py FEL control and update order.
+\definecolor{featureblue}{HTML}{0072B2}
+\definecolor{adaptiveorange}{HTML}{B85C00}
+\definecolor{feedbackgreen}{HTML}{007B60}
+\definecolor{disturbancered}{HTML}{B33951}
+\begin{tikzpicture}[>=Stealth, font=\small,
+ block/.style={draw,rounded corners=3pt,align=center,minimum height=1.25cm,line width=.8pt},
+ signal/.style={->,thick},learn/.style={->,thick,dashed,draw=adaptiveorange},
+ dot/.style={circle,fill,inner sep=1.5pt}]
+\node[block,fill=black!3,text width=2.5cm] (input) at (0,1.5) {Controller inputs\\$x_t=[q_t^*,\dot q_t^*,\ddot q_t^*,q_t,\dot q_t]$};
+\node[block,draw=featureblue,fill=featureblue!9,text width=4.0cm] (core) at (4.5,3) {\textbf{Frozen features}\\{\footnotesize Dense CfC / NCP-wired CfC\\FC-wired CfC / ESN / RBF}\\{\footnotesize No online parameter updates}};
+\node[block,draw=adaptiveorange,fill=adaptiveorange!11,text width=2.7cm] (readout) at (9.5,3) {\textbf{External readout}\\adaptive weights $J_t$\\$\tau_t^{\rm ff}=J_tz_t$};
+\node[draw,circle,minimum size=.65cm,line width=.8pt] (sum) at (12.7,3) {$+$};
+\node[block,fill=black!7,text width=2.7cm] (arm) at (16,3) {\textbf{Simulated arm}\\rigid two-link dynamics};
+\node[block,draw=feedbackgreen,fill=feedbackgreen!9,text width=3.4cm] (pd) at (9.5,0) {\textbf{PD feedback} (fixed gains)\\$\tau_t^{\rm fb}=K_p(q_t^*-q_t)$\\$\phantom{\tau_t^{\rm fb}=} +K_d(\dot q_t^*-\dot q_t)$};
+\node[block,draw=adaptiveorange,fill=adaptiveorange!11,text width=4.6cm] (update) at (9.5,5.6) {\textbf{Readout update} (LMS)\\$J_{t+1}=J_t+\eta\tau_t^{\rm fb}z_t^\top$};
+\draw[signal] (0,5.1) node[above,align=center] {Desired movement\\$q_t^*,\dot q_t^*,\ddot q_t^*$} -- (input.north);
+\draw[thick] (input.east) -- (2,1.5);
+\node[dot] at (2,1.5) {};
+\draw[signal,draw=featureblue] (2,1.5) |- (core.west);
+\draw[signal,draw=feedbackgreen] (2,1.5) |- (pd.west);
+\draw[signal,draw=featureblue] (core.east) -- (readout.west);
+\node[align=center,text=featureblue,font=\scriptsize,anchor=south] at (7.3,3.12) {Features\\$z_t$};
+\draw[signal,draw=adaptiveorange] (readout.east) -- node[above,text=black] {$\tau_t^{\rm ff}$} (sum.west);
+\draw[signal,draw=feedbackgreen] (pd.east) -| node[pos=.25,below,text=black] {$\tau_t^{\rm fb}$} (sum.south);
+\draw[signal] (sum.east) -- node[above,pos=.35] {$\tau_t$} (arm.west);
+\draw[signal,draw=disturbancered] (16,5.5) node[above,text=disturbancered] {External force $F_t$} -- (arm.north);
+\draw[thick] (arm.east) -- (18.2,3) -- (18.2,-1.8) -- (0,-1.8);
+\draw[signal] (0,-1.8) -- (input.south);
+\node[fill=white,inner sep=3pt] at (9.5,-1.8) {Measured arm state $q_t,\dot q_t$};
+\node[dot,fill=featureblue] at (6.9,3) {};
+\draw[learn] (6.9,3) -- (6.9,5.6) -- (update.west);
+\node[text=adaptiveorange,font=\footnotesize,anchor=east] at (6.8,4.8) {$z_t$};
+\node[dot,fill=feedbackgreen] at (12.7,0) {};
+\draw[learn] (12.7,0) -- (13.7,0) -- (13.7,5.6) -- node[above,text=black] {$\tau_t^{\rm fb}$} (update.east);
+\draw[learn] (update.south) -- node[right,text=black] {$J_{t+1}$} (readout.north);
+\node[align=left,anchor=west,font=\footnotesize] at (0,-2.85) {\textcolor{featureblue}{Blue: fixed feature generator.}\quad\textcolor{adaptiveorange}{Orange: adaptive readout and its learning.}\quad\textcolor{feedbackgreen}{Green: PD correction.}\\Solid arrows: control/state signals. Dashed arrows: learning. Dots: branches; unmarked crossings are not connections.};
+\end{tikzpicture}
